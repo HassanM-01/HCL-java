@@ -9,7 +9,7 @@ import java.util.List;
 public class EmployeeDAO {
     private String jdbcURL = "jdbc:mysql://localhost:3306/oct2022?useSSL=false";
     private String jdbcUsername = "root";
-    private String jdbcPassword = "root";
+    private String jdbcPassword = "";
 
     private static final String INSERT_USERS_SQL = "INSERT INTO employee" + "  (name, email, country) VALUES " +
             " (?, ?, ?);";
